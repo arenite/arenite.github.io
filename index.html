@@ -1,0 +1,21 @@
+---
+layout: default
+---
+
+<div class="home">
+
+  {% if site.theme.header_text %}
+  <div class="call-out">{{ site.theme.header_text }}</div>
+  {% endif %}
+
+  <div class="posts">
+    <div class="post-teaser">
+      <p>
+        Arenite is an implementation of the Sandbox and Module patterns. It was designed to, unlike most of the
+        existing module libraries, not affect your code making it dependant on the module library itself.
+      </p>
+
+      <p>In order to achieve maximum performance it also implements a script loader.</p>
+    </div>
+  </div>
+</div>
