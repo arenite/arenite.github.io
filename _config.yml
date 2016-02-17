@@ -1,5 +1,5 @@
 # SITE CONFIGURATION
-baseurl: "/arenite" # the subpath of your site, e.g. /blog/
+baseurl: "/" # the subpath of your site, e.g. /blog/
 url: "http://lcavadas.github.io" # the base hostname & protocol for your site
 
 # THEME-SPECIFIC CONFIGURATION
@@ -24,7 +24,7 @@ theme:
   dribbble: 
   facebook: 
   flickr: 
-  github: "lcavadas/arenite"
+  github: "arenite/arenite"
   google_plus: 
   instagram: 
   linkedin:  # full URL
